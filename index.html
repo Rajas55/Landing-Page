@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioBlueprint - DNA Health Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef4f8;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 20px 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header img {
+            width: 30px;
+        }
+        
+        .nav-buttons {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: #007aff;
+            padding: 10px 20px;
+            border: 1px solid #007aff;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+        .nav-buttons a:hover {
+            background: #007aff;
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            /* background: linear-gradient(to right, #007aff, #4da8f0);*/
+         background: linear-gradient(to bottom, #2a2930 0%, #1f1f1f 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hero img {
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.8rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            font-weight: bold;
+        }
+        .cta-button {
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            background: white;
+            color: #007aff;
+            border-radius: 25px;
+            margin: 10px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .features, .process, .testimonials, .faq {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .feature-grid, .process-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .feature-card, .process-step {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #333;
+            color: white;
+        }
+.feature-card img,
+.process-step img {
+  width: 80px;       /* or any size you prefer */
+  height: 80px;      /* keep the same height for a square shape */
+  object-fit: contain;  /* keeps the entire image visible, might add letterboxing */
+  margin-bottom: 10px;  /* space between the image and the heading */
+  display: block;       /* ensures the margin is applied consistently */
+  margin-left: auto;    /* center horizontally (optional) */
+  margin-right: auto;   /* center horizontally (optional) */
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739832182/result_w1gyoj.png" alt="">
+        <div class="nav-buttons">
+            <a href="#order">Order Test Kit</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </div>
+    </div>
+    <div class="hero">
+        <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739831969/BioBlueprint_Logo-removebg-preview_belw03.png" alt="BioBlueprint Logo">
+        <h1>BioBlueprint - Your Health, Your DNA</h1>
+        <p>Predict. Prevent. Personalize.</p>
+        <a href="#order" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="features">
+  <h2>Why Choose BioBlueprint?</h2>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833125/img2-removebg-preview_w6c0es.png" alt="DNA Insights">
+      <h3>Comprehensive DNA Insights</h3>
+      <p>Understand your genetic predispositions and optimize your health.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833125/img3-removebg-preview_ujk06x.png" alt="Wearable Integration">
+      <h3>Wearable Integration</h3>
+      <p>Sync with smart devices for real-time health tracking.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833125/img4-removebg-preview_awtrvn.png" alt="AI-Powered Analysis">
+      <h3>AI-Powered Analysis</h3>
+      <p>Receive data-driven health recommendations tailored to you.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739832726/image1-removebg-preview_1_knhkb7.png">
+      <h3>Secure & Private</h3>
+      <p>Your data is protected with top-tier security standards.</p>
+    </div>
+  </div>
+</div>
+
+<div class="process">
+  <h2>How It Works</h2>
+  <div class="process-grid">
+    <div class="process-step">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833734/img1-removebg-preview_dnfpcw.png" alt="Order Kit">
+      <h3>Step 1</h3>
+      <p>Order your DNA test kit online.</p>
+    </div>
+    <div class="process-step">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833735/img2__1_-removebg-preview_hskvk9.png" alt="Saliva Sample">
+      <h3>Step 2</h3>
+      <p>Provide a saliva sample and send it back.</p>
+    </div>
+    <div class="process-step">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833735/img3__1_-removebg-preview_rfxjtu.png" alt="Wearable Sync">
+      <h3>Step 3</h3>
+      <p>Sync your wearable device for ongoing tracking.</p>
+    </div>
+    <div class="process-step">
+      <img src="https://res.cloudinary.com/drjqn1dre/image/upload/v1739833735/img4__1_-removebg-preview_co0mgl.png" alt="Health Insights">
+      <h3>Step 4</h3>
+      <p>Receive personalized health insights and recommendations.</p>
+    </div>
+  </div>
+</div>
+
+
+    <div class="footer">
+        <p>&copy; 2025 BioBlueprint | Privacy Policy | Terms of Service</p>
+    </div>
+</body>
+</html>
